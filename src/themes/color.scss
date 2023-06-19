@@ -1,0 +1,59 @@
+/* Global Color Theme*/
+
+// Background
+$background: #f4f4f4;
+$shell: #262626;
+$terminal-color: #003100;
+$terminal-color-border: #202020;
+
+// Layer
+$layer: #ffffff;
+$layer-accent: gray;
+
+// Layer Accent
+
+// Text
+$text-primary: #161616;
+$text-secondary: #525252;
+$text-placeholder: #adadad;
+$text-on-color: #ffffff;
+$text-error: #da1e28;
+$text-hover: green;
+$text-terminal: green;
+
+// Link
+$link: #0f62fe;
+$link: #0043ce;
+$link-visited: #8a3ffc;
+
+// Icon
+$icon-primary: #161616;
+$icon-secondary: #525252;
+$icon-on-color: #ffffff;
+$icon-hover: red;
+
+// Spacing
+$spacing-01: 0.125rem;
+$spacing-02: 0.25rem;
+$spacing-03: 0.5rem;
+$spacing-04: 0.75rem;
+$spacing-05: 1rem;
+$spacing-06: 1.5rem;
+$spacing-07: 2rem;
+$spacing-08: 2.5rem;
+$spacing-09: 3rem;
+$spacing-10: 4rem;
+$spacing-11: 5rem;
+$spacing-12: 6rem;
+$spacing-13: 10rem;
+
+// Screen Size
+$screen-md: 1170px;
+$screen-sm: 768px;
+
+// Shadow
+$light-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+$dark-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+
+// Trasition
+$transition: all 0.5s ease;

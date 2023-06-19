@@ -1,0 +1,50 @@
+@use "../../themes/color.scss" as *;
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: $layer;
+  width: 100%;
+  z-index: 2;
+  box-shadow: $dark-shadow;
+}
+
+.header span {
+  color: blue;
+}
+
+.header-align {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.social-links,
+.nav-links {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.social-link,
+.nav-link {
+  margin: 0 $spacing-03;
+}
+
+.nav-link {
+  letter-spacing: $spacing-02;
+}
+
+.header li {
+  list-style: none;
+}
+
+.header a {
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+.social-link i {
+  font-size: 1.3rem;
+}
